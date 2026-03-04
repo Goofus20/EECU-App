@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;   
     box-sizing: border-box;
-    
+    font-family: Istok Web;
 }
 
-h1 {
+.top {
     text-align: center;
     color: white;
 }
@@ -22,6 +22,7 @@ header {
     flex-direction: row; /* Ensures the image and H1 are in a row */
     justify-content: space-evenly;
     padding: 3vh; /* Adds padding around the content */
+    font-family: Istok Web;
     font-size: 40px;
 }
 
@@ -36,7 +37,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 48px;
+    text-decoration: none;
     background-color: #0054A4;
     color: white;
     margin-top: 20px;
@@ -45,6 +47,7 @@ header {
 #button {
     display: flex;
     justify-content: center;
+ 
 }
 
 h1 {
@@ -54,7 +57,7 @@ h1 {
 
 h2
 {
-    font-size: 30px;
+    font-size: 96px;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -62,7 +65,7 @@ h2
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -77,11 +80,24 @@ h3 {
 #career-select {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 20px;
     background-color: #0054a4;
     color: white;
+    height: 5vh;
+    width: 20vw;
+
 }
 
 #career-select:hover {
     background-color: #003d7a;
 }
+
+#career-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+
