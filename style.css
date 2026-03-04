@@ -1,8 +1,12 @@
-*{
+body {
     margin: 0;
     padding: 0;   
     box-sizing: border-box;
     font-family: Istok Web;
+    background-image: url(./imgs/Wecloming-Hero-image2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
 }
 
 .top {
@@ -23,7 +27,7 @@ header {
     justify-content: space-evenly;
     padding: 3vh; /* Adds padding around the content */
     font-family: Istok Web;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .header-container img {
@@ -62,6 +66,7 @@ h2
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    font-style: italic;
 }
 
 h3 {
@@ -73,8 +78,9 @@ h3 {
 }
 /* find a way to make the picture fit correctly within the frame*/
 .main-body {
-    background-image: url(Happy\ family.png);
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #career-select {
