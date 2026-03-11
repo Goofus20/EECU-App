@@ -290,3 +290,17 @@ justify-content:center;
 .expense-input {
     text-align: center;
 }
+#display-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+#display-salary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
